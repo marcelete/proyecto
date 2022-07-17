@@ -1,0 +1,123 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background: #fcc8e6;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+  }
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+	background-color: rgb(255, 215, 179);
+	height:5px;
+	margin-bottom:-1px;
+	margin-top: -1px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.menu{
+    margin: 0px;
+    height: 200px;
+    position: fixed;
+    z-index:2;
+	text-align:left;
+    top: 0px;
+    box-shadow: #555;
+    font-size: 20px;
+}
+
+
+ul {
+    list-style:none;
+    
+}
+
+
+.nav li a {
+        background-color: rgb(125, 10, 240);
+        color: white;
+        text-decoration: gold;
+        padding: 10px 15px;
+        display: block;
+        border-radius: 5%;
+        border: 1px solid rgb(195, 0, 255);
+}
+
+.nav li a:hover{
+
+    background-color: rgb(255, 255, 255);
+    color:rgb(226, 14, 14);
+    
+
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul{
+display:none;
+position:absolute;
+min-width: 100px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    left:100px;
+    top:0px;
+}
+
+
+.imagenfondo{
+    z-index: -1;
+    height: 100vmax;
+    width: 100vmax;
+    position: fixed;
+    }
+
+ .fotolarga{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    bottom: 10px;
+    
+    
+    
+}
+
+.texto{
+    z-index: 1;
+    top: 10px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    margin: 50px 30px 0px 30px;
+	text-align:justify;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 100px;
+}

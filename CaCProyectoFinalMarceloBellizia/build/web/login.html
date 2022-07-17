@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Login de Usuario</title>
+  <link rel="icon" type="image/x-icon" href="/imagenes/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo/estilo.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos-inForm.css">
+    
+</head>
+
+<body>
+
+    <div id="tarjeta" class="container-fluid square-box d-flex justify-content-center align-items-center position-absolute top-50 start-0 translate-middle-y">
+        <div class="row justify-content-center">
+            <div class="card text-center">
+                <br>
+                <img src="imagenes/LogoCabezajpg.jpg" class="card-img" alt="...">
+                
+                <div class="card-body">
+                    
+                    <form class="form-signin" action="checkuser" method="post">
+                        
+                        <h5 class="card-title">Ingrese al sistema</h5>
+
+                        <label for="inputEmail" class="form-label">Email:</label>
+
+                        <input type="email" id="inputEmail" class="form-control" name="inputEmail" placeholder="Ingrese email" required autofocus>
+
+
+                        <div class="mb-3">
+
+                        <label for="pwd" class="form-label">Contraseña:</label>
+
+                        <input type="password" class="form-control" id="inputPassword" name="inputPassword" placeholder="Ingrese clave" required>
+
+                        </div>
+
+                        <div class="form-check mb-3">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Recordarme</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                 </div>
+            </div>
+        </div> 
+    </div>
+
+</body>
+</html
